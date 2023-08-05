@@ -7,3 +7,9 @@ print(help(str))
 
 # We can also search for a specific method of a class
 print(help(str.find))
+
+# We can check the datatype of any variable using the type() method
+num = 3
+print('datatype of 3 : ', type(num))
+num = 3.14
+print('datatype of 3.14 : ', type(num))
