@@ -71,3 +71,4 @@ greeting = 'Hello'
 person = 'Peter'
 print('String formatting using f-strings : ', f'{greeting}, {person.upper()}')
 
+
