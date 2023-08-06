@@ -1,3 +1,8 @@
+# Creating an empty tuple
+empty_tuple = ()
+empty_tuple = tuple()
+print(empty_tuple)
+
 # Like list, it also deals with the sequence of data
 # Unlike list which are mutable, tuples are immutables
 # Immutability means that once a tuple is created, we can't change its contents

@@ -1,5 +1,10 @@
 # It allows us to work with sequential data
 
+# Creating an empty list
+empty_list = []
+empty_list = list()
+print(empty_list)
+
 # Creating a list
 courses = ['AI','Cybersecurity','DevOps','Cloud Computing']
 print('List of courses : ',courses)
