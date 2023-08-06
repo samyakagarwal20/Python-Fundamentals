@@ -19,6 +19,10 @@ print('Fetching the range of values in range [0,2)', courses[0:2])
 print('Fetching all the values of the list till index 2', courses[:2])
 print('Fetching all the values of the list from index 2', courses[2:])
 
+# Changing the value at a particular index
+courses[0] = 'Quantum Computing'
+print('List after updating element at idx 0 : ', courses)
+
 # Adding an elememnt to the end of the list
 courses.append('Big Data')
 print('List after appending "Big Data" : ', courses)
